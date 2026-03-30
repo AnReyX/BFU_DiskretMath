@@ -1,0 +1,605 @@
+Introduction
+
+ 
+
+The headline for a recent article in Forbes magazine reads, “What’s
+
+the next big thing in big data?” then answers by saying, “Bigger data.” The
+
+author goes on to write that this is still the early days for Big Data. In 2013
+
+only five percent of the potential digital data in this country was analyzed,
+
+even though 22% of digital information is a candidate for analysis. Several
+
+different consulting firms concur with some variation of the label that, “Big
+
+Data: The Next Frontier for Innovation, Competition, and Productivity. “
+
+Bernard Marr has enumerated ten examples of using Big Data that run the
+
+gamut from improving healthcare to decreasing urban traffic problems.
+
+Patrick Tucker looked at the long-term future for Big Data and wrote that,
+
+“In the next two decades, we will be able to predict huge areas of the future
+
+with far greater accuracy than ever before in human history, including events
+
+long thought to be beyond the realm of human inference.” It seems clear
+
+that Big Data has become the latest buzz word in the world of technology,
+
+but beyond all the rhetoric, what is Big Data and why is it important?
+
+ 
+
+How Is Big Data Defined?
+
+ 
+
+The name Big Data (sometimes called business analytics) clearly
+
+implies that size is important, and this is only one of the defining
+
+characteristics of the problem. Most computer users are accustomed to
+
+thinking of data in terms of megabytes and gigabytes, but Big Data requires
+
+much larger units. Data is stored in a computer in binary locations that can
+
+have one of two possible values, one or zero, and a single one of these
+
+locations is called a Bit. The basic unit of digital storage is a byte, which is
+
+usually thought of as consisting of eight bits. A Megabyte is normally
+
+defined to be 1,000,000 bytes, although computer makers sometimes define
+
+it as being the number two raised to the twentieth power. This gives a value
+
+slightly different from the one million bytes, but the difference is small and
+
+for the purposes of this discussion the more common definition of a
+
+megabyte as one million bytes will be used. By the same convention, a
+
+Gigabyte is 1000 Megabytes. At one time this was considered to be a large
+
+amount of computer memory, but now it is possible to buy a one Gigabyte
+
+flash drive for only a few dollars.
+
+David Weinberger points out that according to researchers at the UC-
+
+San Diego, Americans consumed about 3.6 Zettabytes of information in
+
+2008. Weinberger offers a vivid analogy to visualize the size of this much
+
+data. He points out that War and Peace is about 1296 pages in print, which
+
+would be equivalent to 2 megabytes in digital format. This means that one
+
+Zettabyte equals 5x10^14 (that is, 5 with fourteen zeroes after it.) copies of
+
+War and Peace. If each physical book is six inches thiсk, it would take a
+
+photon of light traveling at 186,000 miles per second 2.9 days to go from the
+
+top to the bottom of a stack of this book equivalent to one Zettabyte. This is,
+
+indeed, an unimaginable amount of data, but there is already discussion of
+
+the need for even larger data measures, like Yottabytes (1000 Zettabyes) and
+
+even Brontobytes (1000 Yottabytes). A Brontobyte would be 1 with 27
+
+zeroes after it or 1 x 10^27 bytes.
+
+Although the amount of data is one obvious aspect of Big Data, there
+
+are other factors that may require the use of Big Data tools for analysis.
+
+IBM summarizes the characteristics of Big Data by saying that there are
+
+three V’s. The sheer volume of stored data is exploding; IBM predicts that
+
+there will be 35 Zettabytes stored by 2020. This data comes in a
+
+bewildering variety of structured and unstructured formats. And the velocity
+
+of data depends on not just the speed at which the data is flowing but also
+
+the pace at which it must be collected, analyzed, and retrieved.
+
+Beyond these three V’s, Big data is also about how complicated the
+
+computing problem is. The cost of a personal genome is dropping rapidly
+
+and some are predicting a $100 dollar cost soon. Knowing an individual’s
+
+genome should allow medical treatment to be customized to the individual.
+
+Forrester principal analyst Mike Gualtieri points out that the data from one
+
+individual's sequenced DNA is only about 750MB, but it would require 222
+
+Petabytes for storage for the entire population of the U.S. Even if the goal
+
+was just to analyze the genome for one person in order to find disease
+
+indicators, the complexity of the interactions among this data set would
+
+represent a massive computing problem that would require Big Data tools.
+
+Thus, in addition to the three V’s identified by IBM, it would also be
+
+necessary to take complexity into account.
+
+Several factors have contributed to the current interest in Big Data:
+
+Computer memory has become much cheaper and easier to search.
+
+The cost per gigabyte of data storage provided by a USB flash drive
+
+has fallen from more than $8,000 when they were first introduced
+
+about ten years ago, to 94 cents today.
+
+Social networks collect what formally had been ephemeral
+
+conversations. Twitter generates more than 7 Terabytes (TB) a day;
+
+Facebook more than 10 TBs, and some enterprises already store data
+
+in the petabyte range. As business has become more globalized, coordinating what is
+
+happening at multiple locations has become more complicated but
+
+also, more important. Big Data tools can help with this problem.
+
+One key factor that may explain much of the current hype is the
+
+expectation that Big Data analysis will allow more accurate identification of
+
+customer characteristics than traditional marketing methods. An apocryphal
+
+quote attributed to John Wanamaker (the founder of the eponymous
+
+department store) as early as 1919 says, “I know that half of my advertising
+
+doesn’t work. The problem is I don’t know which half.” The persistence of
+
+this quote suggests a basic truth about many businesses in this country.
+
+Although most businesses collect terabytes of information about customers,
+
+employees, and their enterprise, it is a common complaint that leaders can’t
+
+access their information fast enough, and even when it is accessed it doesn’t
+
+give leaders what they need to know. It is hoped that Big Data will allow
+
+companies to understand better what consumers are thinking. This could
+
+result in more focused business analytics will improve the ability to predict
+
+what the consumer wants and how to reach her. Many businesses, like Amazon and Netflix, use correlation analysis to
+
+suggest products that might interest current customers, that is, suggesting
+
+possible purchases based on the similar purchase by other customers. It is
+
+critical to remember that correlation does not almost imply causation. Just
+
+because one buys a book about World War I doesn’t necessarily mean that
+
+you also want to buy a book about World War II even though many people
+
+may be buying books in both categories. Even more important, when
+
+correlation does the results may be counterproductive. One of the most
+
+famous misuses of this practice was when Target sent coupons for baby
+
+products to a teenage female customer who was predicted to be pregnant
+
+because she was buying unscented lotion, mineral supplements, and cotton
+
+balls. The result was more negative than had been envisioned by Target,
+
+since the analysis was accurate, but the young lady had not yet shared the
+
+news with her father. Ellenberg uses the problem at Target as a starting point for a much
+
+broader discussion of how computer algorithms can be used to predict
+
+human activities. He argues that human behavior is not like problems in
+
+Newtonian physics, where the answer can be quite precise if enough
+
+information is available, but rather people behave more like the weather,
+
+where chaos always makes the results somewhat unpredictable. He goes on to ask who is
+
+responsible if a computer algorithm makes a mistake in
+
+identifying people who are likely to not pay their debts, or be involved in
+
+terrorism.
+
+ 
+
+Big Data Tools
+
+ 
+
+One of the simplest (and cheapest) ways to use Big Data is to track the
+
+number of people who are searching a given term each day by using a tool
+
+like Google’s Big Query. This is a free service that allows a user to query
+
+terabytes of data in seconds using a Structured Query Language (SQL)
+
+interface. (SQL is a special-purpose programming language designed for
+
+managing data held in a relational database management system.) These
+
+results can be extremely powerful, as demonstrated by the fact that by
+
+tracking the search term “flu symptoms” this technique was able to detect
+
+regional outbreaks of the flu a week to 10 days before they are reported by
+
+the U.S. Centers for Disease Control and Prevention.
+
+In the age of social networking, public opinion is as likely to be
+
+shaped by popular bloggers or those with many followers on Twitter as it is
+
+by traditional experts who write for newspapers or magazines. People who
+
+have the power to shape the opinions and decisions of others because of their
+
+knowledge, relationship, or authority are called influencers. Marketers wish
+
+to identify the influencers in order to communicate with them and change
+
+their minds; social scientists view them as early indicators of future public
+
+opinion.
+
+One of the simplest tools used to identify influencers is a free service
+
+called Klout which measures the size and engagement of a user’s social
+
+media network based on their activity on Twitter, Facebook, Google+,
+
+LinkedIn, Foursquare, and Instagram data to arrive at a social influence or
+
+Klout score. These scores measure the overall influence of a user and range
+
+between 1 and 100, with 40 being the average. The disadvantage is that
+
+Klout does not allow you to isolate those who have influence around a
+
+specific topic. Marketers and social scientists wish to search for influencers
+
+who rank the highest for a specific topic or product can accomplish this
+
+using tools like Little Bird, Inkybee, or Cyfe.
+
+Moving to a more sophisticated level of analysis requires the use of
+
+the data-processing tools that have been developed to handle the rapid
+
+growth in size of the World Wide Web. Search engines, like Yahoo and Google, were the
+
+first companies to work with datasets that were too large
+
+for conventional methods. In order to power its searches, Google developed
+
+a search strategy called MapReduce. The software distributes a task onto a
+
+multitude of processors which process the input. Traditional data
+
+warehouses use a relational database (like Excel rows and columns);
+
+Search engines need to handle non-relational databases, sometimes called
+
+NoSQL. The most popular software to handle No-SQL databases is called
+
+Hadoop, and several different versions are available as freeware. Hadoop is
+
+designed to collect data even if it doesn’t fit nicely into tables, distribute a
+
+query across a large number of separate processors, and then combine the
+
+results into a single answer in order to deliver results in almost real time.
+
+Hadoop jobs have traditionally been written in Java, but recently interfaces
+
+are begin developed that make the process easier less-experienced operators.
+
+ 
+
+Big Data and Higher Education
+
+ 
+
+Big data is attracting attention among educators for several reasons.
+
+In an era when many students attend college with the hopes that this
+
+experience will lead to a job after graduation, there are various predictions
+
+that there will be a rosy future for graduates who have understand how to
+
+use Big Data. In a recent report entitled, “Big Data: The Next Frontier for
+
+Innovation, Competition, and Productivity”, McKinsey & Company, a
+
+global management consulting firm, predicts that Big Data will become a
+
+key basis of competition and growth for individual firms. They predict that
+
+by 2018 the United States could face a shortage of 140,000 to 190,000
+
+people with deep analytical skills as well as 1.5 million managers and
+
+analysts who can use big data. Not to be outdone, Gartner, a leading
+
+information technology research and advisory company, says that 4.4 million
+
+IT jobs will be created by 2015 to support Big Data. Even if these
+
+estimates are optimistic, it would appear that in the near future there will be
+
+a significant demand for people who have these skills. Colleges and
+
+universities have an opportunity as well as an obligation to give their
+
+students the skills needed to compete for these jobs.
+
+Big Data analytics is also playing an ever-increasing role in science
+
+research. As sensors become cheaper and smaller, more scientific
+
+experiments depend on collecting so much data that it can only be analyzed
+
+by Big Data techniques. For example, the Square Kilometer Array (SKA)
+
+under development in Australia and South Africa will consist of 36
+
+small antennas spread over more than 3000 km to simulate a single giant
+
+be transferred from its servers every second.
+
+Sverre Jarp, Chief Technology Officer at CERN, says, "We are able to get
+
+results out as soon as we have the data. This is what big data analysis is all
+
+about, extracting the value from data immediately. We have open source
+
+tools; anyone can use them, which help us find the nuggets in the tsunami of
+
+data we face.”
+
+Big Data is also causing a revolution in research in the social sciences.
+
+King points out that since 1995 there has been an onslaught of new and more
+
+informative social science data produced by the revolution in computer
+
+technology, the transformation of many records from analog to digital
+
+format, and the competition among governments to share data. He
+
+contends that new types of research data about human behavior and society
+
+are being made possible by the availability of a wealth of information that
+
+previously had to be gathered manually. He also reminds his colleagues that
+
+there is a need for better ways to share data and protect privacy than so-
+
+called anonymous surveys, since in many cases it is relatively easy to
+
+identify the participants. King contends that social scientists need to form
+
+alliances with archivists and the legal community to find better ways to
+
+share and store data. It is imperative that social scientists begin asking
+
+critical questions about what all this data means, who gets access to it, how
+
+it is deployed, and to what ends.
+
+ 
+
+Future Uses of Big Data
+
+ 
+
+Several factors make it likely that the current rate of data
+
+accumulation will continue, if not accelerate, in the future. As
+
+microprocessors and sensors have become smaller and cheaper, they are
+
+being incorporated into many common devices, such as appliances, cars, and
+
+even light bulbs. According to a recent Pew Report, a major contributor to
+
+Big Data will be The Internet of Things (IoT), where, “A global, immersive,
+
+invisible, ambient networked computing environment built through the
+
+continued proliferation of smart sensors, cameras, software, databases, and
+
+massive data centers in a world-spanning information fabric known as the
+
+Internet of Things.” The Internet of Things is the network of physical
+
+objects that contain embedded technology to communicate and sense or
+
+interact with their internal states or the external environment. Gartner
+
+predicts that the Internet of Things, excluding PCs, tablets and smartphones,
+
+will consist of 26 billion units by 2020, an almost 30-fold increase from 0.9
+
+billion in 2009. The Internet of Things will soon produce a massive
+
+volume and variety of data at unprecedented velocity.
+
+It is the hope that the Internet of Things will eventually include
+
+continual information access and personalized content to everyone wherever
+
+and whenever he or she wishes. This goal is called ambient intelligence,
+
+where a network of low-power, light-weight, and low-cost devices create an
+
+environment that anticipates an individual’s needs and wirelessly creates
+
+personalized responses. Ambient intelligence will create a different type of
+
+Big Data problem, where it is necessary to sort through a wealth of data that
+
+is being supplied, take appropriate action where it can be automated, and
+
+prioritize the need for response where a personal action is required.
+
+Another potential source of large amounts of data is Unmanned Aerial
+
+Vehicles (UAVs), commonly called drones. The public has become aware of
+
+the military uses for drones which can stay aloft for days at a time and can
+
+include powerful sensors that collect large amounts of data or even carry
+
+weapons. According to an article by Ackerman, the U.S. Air Force is
+
+planning to create improved software tools that can integrate the video feeds
+
+from drones with imagery obtained from satellites, piloted spy planes and
+
+other sources. In addition, the U.S. Navy is developing its own set of
+
+drones that will perform underwater in ways that are similar to what the Air
+
+Force drones do in the sky. A big difference is that the navy drones will be
+
+self-powered and draw energy from the ocean’s thermocline, a pair of layers
+
+of warm water near the surface and chillier water below. This will allow
+
+them to move underwater for very long periods of time and be almost
+
+undetectable.
+
+Use of drones by private parties and companies in the U.S. has been
+
+slowed by the failure to develop regulations about allowed uses, but despite
+
+this there is already considerable interest in using drones for public services
+
+and private information gathering. There is already a new generation of
+
+smaller and cheaper models that are becoming available for civilian
+
+applications. The kind of information drones can collect will be very
+
+valuable to corporate and commercial interests that deal with video and
+
+imagery. As the legal status of drones becomes clearer, their use is expected
+
+to expand rapidly. Matt Mikell, from Dell, predicts that, “drones will change
+
+the way businesses spend advertising dollars, survey land, harvest crops,
+
+speed traffic, reduce mining waste and protect more with less. The potential
+
+applications are endless and when matched with data from phones, cars,
+
+trucks, planes, trains and machinery, could lead to information evolution and
+
+a new industrial revolution.” All these applications will require Big Data
+
+tools.
+
+The medical profession’s continuing shift to Electronic Health Record
+
+(HER) systems represents another area that will require Big Data techniques
+
+to become truly effective. EHRs may include a range of data on individual
+
+patient histories, including personal statistics, medical history, medication
+
+records, allergies, test results, immunization status, etc. as well as summary
+
+data that provides information about demographic groups. The American
+
+Medical Association (AMA) estimated that developing this capability along
+
+with improved medical records could save as much as $450 million in health
+
+care costs, but Big Data techniques would be necessary since the AMA says
+
+that current electronic health record systems lack the sophistication to
+
+manage the storage and retrieval of this much information.
+
+ 
+
+Concluding Thoughts
+
+ 
+
+Big Data is already a part of our lives. Even though Big Data sounds
+
+like an esoteric topic only of interest to specialists, most people already use
+
+it every day when they do a Google search, plan a trip on Expedia, buy a
+
+book from Amazon, or ask their broker about a potential stock purchase.
+
+Because these actions are so transparent to the user (and often are free), it is
+
+easy to forget that Big Data tools are working in the background. Even less
+
+visible, but equally important, are cases where companies or governments
+
+are scrutinizing day-to-day operations to identify potential customers,
+
+terrorists, possible criminals, or just people with influence. The better that
+
+everyone recognizes this intrusion and works to understand the operations of
+
+the wizard behind the curtain, the more chance there will be to truly
+
+maintain control of our lives.
+
+In conclusion, it is important to remember that Big Data may also have a
+
+positive impact. Danah Boyd, a Principal Researcher at Microsoft Research,
+
+observed that data is becoming like the air we breathe; it can be a source of
+
+both pollution and sustenance. She outlined several important questions
+
+that must be dealt with before Big Data reaches its full potential. Despite
+
+these concerns, she concludes that the application of Big Data tools will
+
+create a fundamental change in the way knowledge is created. Ultimately,
+
+the value of Big Data comes from the valuable patterns of knowledge that
+
+can be derived by making connections between pieces of data about an
+
+individual, among groups of individuals, or simply about the structure of
+
+information itself.
